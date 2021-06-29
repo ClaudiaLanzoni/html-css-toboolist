@@ -1,5 +1,79 @@
-* {
-    margin: 0;
-    padding: 0;
+*{
     box-sizing: border-box;
 }
+
+div h3 {
+    display: inline;
+}
+
+.titolo {
+    display: inline;
+    vertical-align: 50%;
+}
+
+.pulsanti-add {
+    padding: 8px 12px 8px 12px;
+    border-radius: 8px;
+}
+
+.check {
+    display: inline;
+    color: green;
+    border: 1px solid green;
+    padding: 1px 3px;
+    border-radius: 50%;   
+}
+
+.cross {
+    display: inline;
+    color: red;
+    border: 1px solid red;
+    padding: 1px 3px;
+    border-radius: 50%; 
+}
+
+.field {
+    padding: 8px 12px 8px 12px;
+    border-radius: 20px;
+    font-size: small;
+    color: white;
+}
+
+.editorial {
+    background-color: dodgerblue;
+}
+
+.q1-goals {
+    background-color: blueviolet;
+}
+
+.recruiting {
+    background-color: mediumaquamarine;
+}
+
+.mobile {
+    background-color: darkorange;
+}
+
+.website {
+    background-color: mediumvioletred;
+}
+
+.sales {
+    background-color: yellowgreen;
+}
+
+#pulsante-task {
+    background-color: dodgerblue;
+    color: white;
+}
+
+#pulsante-section {
+    border: 1px solid gray;
+    color: gray;
+}
+
+#comandi {
+    margin: 80px 200px 
+}
+
