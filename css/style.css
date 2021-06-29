@@ -2,6 +2,23 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    margin: 80px 200px;
+    line-height: 3;
+}
+
+section {
+    margin-top: 30px;
+}
+
+section > :first-child {
+    line-height: 1.5;
+}
+
 div h3 {
     display: inline;
 }
@@ -73,7 +90,4 @@ div h3 {
     color: gray;
 }
 
-#comandi {
-    margin: 80px 200px 
-}
 
